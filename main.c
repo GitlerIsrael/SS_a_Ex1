@@ -3,10 +3,7 @@
 
 int main(){
     int x1,x2;
-    printf("please enter the number x1:\n");
-    scanf(" %d",&x1);
-    printf("please enter the number x2:\n");
-    scanf(" %d",&x2);
+    scanf(" %d %d",&x1, &x2);
 
 
     printf("The Armstrong numbers are: ");
