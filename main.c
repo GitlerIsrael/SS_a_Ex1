@@ -13,28 +13,26 @@ int main(){
             printf(" %d", i);
         }
     }
-    printf("\n");
 
-    printf("The Palindromes are:");
+    printf("\nThe Palindromes are:");
     for (int i = x1; i <= x2 ; i++) {
         if(isPalindrome(i)) {
             printf(" %d", i);
         }
     }
-    printf("\n");
 
-    printf("The Prime numbers are:");
+    printf("\nThe Prime numbers are:");
     for (int i = x1; i<= x2 ; i++) {
         if(isPrime(i)) {
             printf(" %d", i);
         }
     }
-    printf("\n");
 
-    printf("The Strong numbers are:");
+    printf("\nThe Strong numbers are:");
     for (int i = x1; i <= x2 ; i++) {
         if(isStrong(i)) {
             printf(" %d", i);
         }
     }
+    printf("\n");
 }
